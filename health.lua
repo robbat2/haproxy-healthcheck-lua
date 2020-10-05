@@ -94,3 +94,5 @@ core.register_service("health_ready", "http", haproxy_health.service_health_read
 core.register_service("health_down", "http", haproxy_health.service_health_down)
 core.register_service("health_drain", "http", haproxy_health.service_health_drain)
 core.register_service("health_maint", "http", haproxy_health.service_health_maint)
+
+-- vim:et ts=2 sts=2:
